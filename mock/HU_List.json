@@ -1,0 +1,1422 @@
+[
+ {
+  "Handling Unit number": "300000305",
+  "Packaging materials": "EWMS4-STOCON00",
+  "Plant": "1210",
+  "Storage location": "121C",
+  "Material to be packed": "RM19",
+  "Quantity to be packed": 5,
+  "Unit of measure": "L",
+  "Batch": "0000000025"
+ },
+ {
+  "Handling Unit number": "300000326",
+  "Packaging materials": "251",
+  "Plant": "1210",
+  "Storage location": "121C",
+  "Material to be packed": "RM19",
+  "Quantity to be packed": 10,
+  "Unit of measure": "L",
+  "Batch": "0000000031"
+ },
+ {
+  "Handling Unit number": "300000351",
+  "Packaging materials": "253",
+  "Plant": "1210",
+  "Storage location": "121C",
+  "Material to be packed": "RM19",
+  "Quantity to be packed": 10,
+  "Unit of measure": "L",
+  "Batch": "0000000032"
+ },
+ {
+  "Handling Unit number": "300000355",
+  "Packaging materials": "253",
+  "Plant": "1210",
+  "Storage location": "121C",
+  "Material to be packed": "RM19",
+  "Quantity to be packed": 11,
+  "Unit of measure": "L",
+  "Batch": "0000000034"
+ },
+ {
+  "Handling Unit number": "300000363",
+  "Packaging materials": "PALETTE",
+  "Plant": "0001",
+  "Storage location": "0001",
+  "Material to be packed": "112",
+  "Quantity to be packed": 100,
+  "Unit of measure": "TO",
+  "Batch": "0000000040"
+ },
+ {
+  "Handling Unit number": "300000365",
+  "Packaging materials": "PALETTE",
+  "Plant": "0001",
+  "Storage location": "0001",
+  "Material to be packed": "112",
+  "Quantity to be packed": 100,
+  "Unit of measure": "TO",
+  "Batch": "0000000041"
+ },
+ {
+  "Handling Unit number": "300000367",
+  "Packaging materials": "253",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "112",
+  "Quantity to be packed": 100,
+  "Unit of measure": "TO",
+  "Batch": "0000000042"
+ },
+ {
+  "Handling Unit number": "300000400",
+  "Packaging materials": "251",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "112",
+  "Quantity to be packed": 10,
+  "Unit of measure": "TO",
+  "Batch": "0000000044"
+ },
+ {
+  "Handling Unit number": "300000403",
+  "Packaging materials": "253",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "112",
+  "Quantity to be packed": 10,
+  "Unit of measure": "TO",
+  "Batch": "0000000047"
+ },
+ {
+  "Handling Unit number": "300000406",
+  "Packaging materials": "253",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "112",
+  "Quantity to be packed": 100,
+  "Unit of measure": "TO",
+  "Batch": "0000000048"
+ },
+ {
+  "Handling Unit number": "300000408",
+  "Packaging materials": "251",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "112",
+  "Quantity to be packed": 20,
+  "Unit of measure": "TO",
+  "Batch": "0000000049"
+ },
+ {
+  "Handling Unit number": "300000520",
+  "Packaging materials": "253",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "112",
+  "Quantity to be packed": 100,
+  "Unit of measure": "TO",
+  "Batch": "0000000052"
+ },
+ {
+  "Handling Unit number": "300000524",
+  "Packaging materials": "251",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "112",
+  "Quantity to be packed": 80,
+  "Unit of measure": "TO",
+  "Batch": "0000000053"
+ },
+ {
+  "Handling Unit number": "300000528",
+  "Packaging materials": "253",
+  "Plant": "0001",
+  "Storage location": "0001",
+  "Material to be packed": "112",
+  "Quantity to be packed": 80,
+  "Unit of measure": "TO",
+  "Batch": "0000000054"
+ },
+ {
+  "Handling Unit number": "300000535",
+  "Packaging materials": "251",
+  "Plant": "0001",
+  "Storage location": "0001",
+  "Material to be packed": "112",
+  "Quantity to be packed": 80,
+  "Unit of measure": "TO",
+  "Batch": "0000000055"
+ },
+ {
+  "Handling Unit number": "300000536",
+  "Packaging materials": "251",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "112",
+  "Quantity to be packed": 80,
+  "Unit of measure": "TO",
+  "Batch": "0000000056"
+ },
+ {
+  "Handling Unit number": "300000539",
+  "Packaging materials": "251",
+  "Plant": "0001",
+  "Storage location": "0001",
+  "Material to be packed": "112",
+  "Quantity to be packed": 80,
+  "Unit of measure": "TO",
+  "Batch": "0000000057"
+ },
+ {
+  "Handling Unit number": "300000540",
+  "Packaging materials": "251",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "112",
+  "Quantity to be packed": 80,
+  "Unit of measure": "TO",
+  "Batch": "0000000058"
+ },
+ {
+  "Handling Unit number": "300000544",
+  "Packaging materials": "253",
+  "Plant": "0001",
+  "Storage location": "0001",
+  "Material to be packed": "112",
+  "Quantity to be packed": 80,
+  "Unit of measure": "TO",
+  "Batch": "0000000059"
+ },
+ {
+  "Handling Unit number": "300000546",
+  "Packaging materials": "253",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "112",
+  "Quantity to be packed": 100,
+  "Unit of measure": "TO",
+  "Batch": "0000000058"
+ },
+ {
+  "Handling Unit number": "300000548",
+  "Packaging materials": "253",
+  "Plant": "0001",
+  "Storage location": "0001",
+  "Material to be packed": "112",
+  "Quantity to be packed": 80,
+  "Unit of measure": "TO",
+  "Batch": "0000000061"
+ },
+ {
+  "Handling Unit number": "300000607",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 20,
+  "Unit of measure": "TO",
+  "Batch": "0000000173"
+ },
+ {
+  "Handling Unit number": "300000720",
+  "Packaging materials": "251",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 15,
+  "Unit of measure": "TO",
+  "Batch": "0000000225"
+ },
+ {
+  "Handling Unit number": "300000751",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 25,
+  "Unit of measure": "TO",
+  "Batch": "0000000226"
+ },
+ {
+  "Handling Unit number": "300000753",
+  "Packaging materials": "251",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 25,
+  "Unit of measure": "TO",
+  "Batch": "0000000226"
+ },
+ {
+  "Handling Unit number": "300000755",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "HAMZA"
+ },
+ {
+  "Handling Unit number": "300000756",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "HAMZA"
+ },
+ {
+  "Handling Unit number": "300000757",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 10,
+  "Unit of measure": "TO",
+  "Batch": "HAMZA"
+ },
+ {
+  "Handling Unit number": "300000758",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "HAMZA"
+ },
+ {
+  "Handling Unit number": "300000759",
+  "Packaging materials": "251",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 100,
+  "Unit of measure": "TO",
+  "Batch": "HAMZA"
+ },
+ {
+  "Handling Unit number": "300000760",
+  "Packaging materials": "251",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 100,
+  "Unit of measure": "TO",
+  "Batch": "HAMZA"
+ },
+ {
+  "Handling Unit number": "300000761",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "0000000225"
+ },
+ {
+  "Handling Unit number": "300000765",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "0000000227"
+ },
+ {
+  "Handling Unit number": "300000766",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "0000000227"
+ },
+ {
+  "Handling Unit number": "300000767",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 3,
+  "Unit of measure": "TO",
+  "Batch": "0000000227"
+ },
+ {
+  "Handling Unit number": "300000790",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "WAJIH"
+ },
+ {
+  "Handling Unit number": "300000791",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "WAJIH"
+ },
+ {
+  "Handling Unit number": "300000792",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "WAJIH"
+ },
+ {
+  "Handling Unit number": "300000793",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "WAJIH"
+ },
+ {
+  "Handling Unit number": "300000794",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "WAJIH"
+ },
+ {
+  "Handling Unit number": "300000795",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "WAJIH"
+ },
+ {
+  "Handling Unit number": "300000796",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "WAJIH"
+ },
+ {
+  "Handling Unit number": "300000797",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "WAJIH"
+ },
+ {
+  "Handling Unit number": "300000798",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "WAJIH"
+ },
+ {
+  "Handling Unit number": "300000799",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "WAJIH"
+ },
+ {
+  "Handling Unit number": "300000800",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "WAJIH"
+ },
+ {
+  "Handling Unit number": "300000801",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "WAJIH"
+ },
+ {
+  "Handling Unit number": "300000802",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "WAJIH"
+ },
+ {
+  "Handling Unit number": "300000803",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "WAJIH"
+ },
+ {
+  "Handling Unit number": "300000804",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "WAJIH"
+ },
+ {
+  "Handling Unit number": "300000805",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "WAJIH"
+ },
+ {
+  "Handling Unit number": "300000806",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "WAJIH"
+ },
+ {
+  "Handling Unit number": "300000807",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "WAJIH"
+ },
+ {
+  "Handling Unit number": "300000957",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 35,
+  "Unit of measure": "TO",
+  "Batch": "0000000268"
+ },
+ {
+  "Handling Unit number": "112345678000003897",
+  "Packaging materials": "EWMS4-CAR00",
+  "Plant": "1210",
+  "Storage location": "121S",
+  "Material to be packed": "RM19",
+  "Quantity to be packed": 10,
+  "Unit of measure": "L",
+  "Batch": "0000000221"
+ },
+ {
+  "Handling Unit number": "112345678000002944",
+  "Packaging materials": "EWMS4-PAL00",
+  "Plant": "1210",
+  "Storage location": "121S",
+  "Material to be packed": "RM19",
+  "Quantity to be packed": 12,
+  "Unit of measure": "L",
+  "Batch": "0000000019"
+ },
+ {
+  "Handling Unit number": "300001546",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "0000000341"
+ },
+ {
+  "Handling Unit number": "300001547",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "0000000341"
+ },
+ {
+  "Handling Unit number": "300001548",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "0000000341"
+ },
+ {
+  "Handling Unit number": "300001549",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "0000000341"
+ },
+ {
+  "Handling Unit number": "300001550",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "0000000341"
+ },
+ {
+  "Handling Unit number": "300001551",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "0000000341"
+ },
+ {
+  "Handling Unit number": "300001552",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "0000000341"
+ },
+ {
+  "Handling Unit number": "300001553",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "0000000341"
+ },
+ {
+  "Handling Unit number": "300001554",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "0000000341"
+ },
+ {
+  "Handling Unit number": "300001555",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "0000000341"
+ },
+ {
+  "Handling Unit number": "300001556",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "0000000341"
+ },
+ {
+  "Handling Unit number": "300001557",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "0000000341"
+ },
+ {
+  "Handling Unit number": "300001558",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "0000000341"
+ },
+ {
+  "Handling Unit number": "300001559",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "0000000341"
+ },
+ {
+  "Handling Unit number": "300001560",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "0000000341"
+ },
+ {
+  "Handling Unit number": "300001561",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "0000000341"
+ },
+ {
+  "Handling Unit number": "300001562",
+  "Packaging materials": "FARDEAU",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 5,
+  "Unit of measure": "TO",
+  "Batch": "0000000341"
+ },
+ {
+  "Handling Unit number": "300002054",
+  "Packaging materials": "CARTOONPACK02",
+  "Plant": "1210",
+  "Storage location": "MXYZ",
+  "Material to be packed": "ABC123",
+  "Quantity to be packed": 25,
+  "Unit of measure": "PC",
+  "Batch": "0000000378"
+ },
+ {
+  "Handling Unit number": "300002055",
+  "Packaging materials": "CARTOONPACK02",
+  "Plant": "1210",
+  "Storage location": "MXYZ",
+  "Material to be packed": "ABC123",
+  "Quantity to be packed": 25,
+  "Unit of measure": "PC",
+  "Batch": "0000000378"
+ },
+ {
+  "Handling Unit number": "300002056",
+  "Packaging materials": "CARTOONPACK02",
+  "Plant": "1210",
+  "Storage location": "MXYZ",
+  "Material to be packed": "ABC123",
+  "Quantity to be packed": 25,
+  "Unit of measure": "PC",
+  "Batch": "0000000378"
+ },
+ {
+  "Handling Unit number": "300002057",
+  "Packaging materials": "CARTOONPACK02",
+  "Plant": "1210",
+  "Storage location": "MXYZ",
+  "Material to be packed": "ABC123",
+  "Quantity to be packed": 25,
+  "Unit of measure": "PC",
+  "Batch": "0000000378"
+ },
+ {
+  "Handling Unit number": "300002058",
+  "Packaging materials": "CARTOONPACK02",
+  "Plant": "1210",
+  "Storage location": "MXYZ",
+  "Material to be packed": "ABC123",
+  "Quantity to be packed": 25,
+  "Unit of measure": "PC",
+  "Batch": "0000000378"
+ },
+ {
+  "Handling Unit number": "301471767",
+  "Packaging materials": "CONTAINER PC",
+  "Plant": "1210",
+  "Storage location": "HUMN",
+  "Material to be packed": "SERIALTEST",
+  "Quantity to be packed": 16,
+  "Unit of measure": "PC",
+  "Batch": "0000000430"
+ },
+ {
+  "Handling Unit number": "302301768",
+  "Packaging materials": "PK SERIAL",
+  "Plant": "1210",
+  "Storage location": "HUMS",
+  "Material to be packed": "SERIALTEST1",
+  "Quantity to be packed": 50,
+  "Unit of measure": "PC",
+  "Batch": "0000000448"
+ },
+ {
+  "Handling Unit number": "302301769",
+  "Packaging materials": "PK SERIAL",
+  "Plant": "1210",
+  "Storage location": "HUMS",
+  "Material to be packed": "SERIALTEST1",
+  "Quantity to be packed": 50,
+  "Unit of measure": "PC",
+  "Batch": "0000000448"
+ },
+ {
+  "Handling Unit number": "302955229",
+  "Packaging materials": "CONTAINER PC",
+  "Plant": "1210",
+  "Storage location": "HUMN",
+  "Material to be packed": "SERIALTEST",
+  "Quantity to be packed": 9,
+  "Unit of measure": "PC",
+  "Batch": "0000000449"
+ },
+ {
+  "Handling Unit number": "302988096",
+  "Packaging materials": "CONTAINER PC",
+  "Plant": "1210",
+  "Storage location": "HUMN",
+  "Material to be packed": "SERIALTEST",
+  "Quantity to be packed": 16,
+  "Unit of measure": "PC",
+  "Batch": "0000000466"
+ },
+ {
+  "Handling Unit number": "303191353",
+  "Packaging materials": "PALETTE",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 4,
+  "Unit of measure": "TO",
+  "Batch": "0000000215"
+ },
+ {
+  "Handling Unit number": "7000000013",
+  "Packaging materials": "PALETTE",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 2,
+  "Unit of measure": "TO",
+  "Batch": "0000000215"
+ },
+ {
+  "Handling Unit number": "303191618",
+  "Packaging materials": "PALETTE",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 4,
+  "Unit of measure": "TO",
+  "Batch": "0000000215"
+ },
+ {
+  "Handling Unit number": "303191751",
+  "Packaging materials": "PALETTE",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 6,
+  "Unit of measure": "TO",
+  "Batch": "0000000215"
+ },
+ {
+  "Handling Unit number": "303358900",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 2,
+  "Unit of measure": "TO",
+  "Batch": "0000000475"
+ },
+ {
+  "Handling Unit number": "303358901",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 2,
+  "Unit of measure": "TO",
+  "Batch": "0000000475"
+ },
+ {
+  "Handling Unit number": "303358902",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 2,
+  "Unit of measure": "TO",
+  "Batch": "0000000475"
+ },
+ {
+  "Handling Unit number": "303358903",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 2,
+  "Unit of measure": "TO",
+  "Batch": "0000000475"
+ },
+ {
+  "Handling Unit number": "303358938",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 2,
+  "Unit of measure": "TO",
+  "Batch": "0000000475"
+ },
+ {
+  "Handling Unit number": "303358939",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 2,
+  "Unit of measure": "TO",
+  "Batch": "0000000475"
+ },
+ {
+  "Handling Unit number": "303358940",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 2,
+  "Unit of measure": "TO",
+  "Batch": "0000000475"
+ },
+ {
+  "Handling Unit number": "303358941",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 2,
+  "Unit of measure": "TO",
+  "Batch": "0000000475"
+ },
+ {
+  "Handling Unit number": "303358942",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 2,
+  "Unit of measure": "TO",
+  "Batch": "0000000475"
+ },
+ {
+  "Handling Unit number": "303358943",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 2,
+  "Unit of measure": "TO",
+  "Batch": "0000000475"
+ },
+ {
+  "Handling Unit number": "303358946",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 2,
+  "Unit of measure": "TO",
+  "Batch": "0000000475"
+ },
+ {
+  "Handling Unit number": "303358947",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 2,
+  "Unit of measure": "TO",
+  "Batch": "0000000475"
+ },
+ {
+  "Handling Unit number": "303358948",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 2,
+  "Unit of measure": "TO",
+  "Batch": "0000000475"
+ },
+ {
+  "Handling Unit number": "303358951",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 2,
+  "Unit of measure": "TO",
+  "Batch": "0000000477"
+ },
+ {
+  "Handling Unit number": "303359084",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 2,
+  "Unit of measure": "TO",
+  "Batch": "0000000478"
+ },
+ {
+  "Handling Unit number": "303359085",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 2,
+  "Unit of measure": "TO",
+  "Batch": "0000000478"
+ },
+ {
+  "Handling Unit number": "303359130",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 2,
+  "Unit of measure": "TO",
+  "Batch": "0000000480"
+ },
+ {
+  "Handling Unit number": "303391561",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 1,
+  "Unit of measure": "TO",
+  "Batch": "0000000256"
+ },
+ {
+  "Handling Unit number": "303391564",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 2,
+  "Unit of measure": "TO",
+  "Batch": "0000000257"
+ },
+ {
+  "Handling Unit number": "303391565",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 2,
+  "Unit of measure": "TO",
+  "Batch": "0000000257"
+ },
+ {
+  "Handling Unit number": "303391566",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 2,
+  "Unit of measure": "TO",
+  "Batch": "0000000257"
+ },
+ {
+  "Handling Unit number": "303391567",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 2,
+  "Unit of measure": "TO",
+  "Batch": "0000000257"
+ },
+ {
+  "Handling Unit number": "303391568",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 2,
+  "Unit of measure": "TO",
+  "Batch": "0000000258"
+ },
+ {
+  "Handling Unit number": "303391569",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 2,
+  "Unit of measure": "TO",
+  "Batch": "0000000258"
+ },
+ {
+  "Handling Unit number": "303391570",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 2,
+  "Unit of measure": "TO",
+  "Batch": "0000000258"
+ },
+ {
+  "Handling Unit number": "303391571",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 2,
+  "Unit of measure": "TO",
+  "Batch": "0000000258"
+ },
+ {
+  "Handling Unit number": "303391572",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 2,
+  "Unit of measure": "TO",
+  "Batch": "0000000258"
+ },
+ {
+  "Handling Unit number": "303391573",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 2,
+  "Unit of measure": "TO",
+  "Batch": "0000000258"
+ },
+ {
+  "Handling Unit number": "303391577",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 1,
+  "Unit of measure": "TO",
+  "Batch": "0000000258"
+ },
+ {
+  "Handling Unit number": "303391595",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 2,
+  "Unit of measure": "TO",
+  "Batch": "0000000266"
+ },
+ {
+  "Handling Unit number": "303391596",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 1,
+  "Unit of measure": "TO",
+  "Batch": "0000000266"
+ },
+ {
+  "Handling Unit number": "303391597",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 2,
+  "Unit of measure": "TO",
+  "Batch": "0000000269"
+ },
+ {
+  "Handling Unit number": "303391598",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 2,
+  "Unit of measure": "TO",
+  "Batch": "0000000269"
+ },
+ {
+  "Handling Unit number": "303391599",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 2,
+  "Unit of measure": "TO",
+  "Batch": "0000000269"
+ },
+ {
+  "Handling Unit number": "303391600",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 2,
+  "Unit of measure": "TO",
+  "Batch": "0000000269"
+ },
+ {
+  "Handling Unit number": "303391712",
+  "Packaging materials": "CONTAINER PC",
+  "Plant": "1210",
+  "Storage location": "HUMN",
+  "Material to be packed": "SERIALTEST",
+  "Quantity to be packed": 2,
+  "Unit of measure": "PC",
+  "Batch": "0000000489"
+ },
+ {
+  "Handling Unit number": "303423454",
+  "Packaging materials": "CONTAINER PC",
+  "Plant": "1210",
+  "Storage location": "HUMN",
+  "Material to be packed": "SERIALTEST",
+  "Quantity to be packed": 2,
+  "Unit of measure": "PC",
+  "Batch": "0000000490"
+ },
+ {
+  "Handling Unit number": "304863487",
+  "Packaging materials": "PK SERIAL",
+  "Plant": "1210",
+  "Storage location": "HUMS",
+  "Material to be packed": "SERIALTEST1",
+  "Quantity to be packed": 32,
+  "Unit of measure": "PC",
+  "Batch": "0000000501"
+ },
+ {
+  "Handling Unit number": "304863489",
+  "Packaging materials": "PK SERIAL",
+  "Plant": "1210",
+  "Storage location": "HUMS",
+  "Material to be packed": "SERIALTEST1",
+  "Quantity to be packed": 2,
+  "Unit of measure": "PC",
+  "Batch": "0000000502"
+ },
+ {
+  "Handling Unit number": "304864534",
+  "Packaging materials": "CONTAINER PC",
+  "Plant": "1210",
+  "Storage location": "HUMN",
+  "Material to be packed": "SERIALTEST",
+  "Quantity to be packed": 2,
+  "Unit of measure": "PC",
+  "Batch": "0000000508"
+ },
+ {
+  "Handling Unit number": "304897243",
+  "Packaging materials": "CONTAINER PC",
+  "Plant": "1210",
+  "Storage location": "HUMN",
+  "Material to be packed": "SERIALTEST",
+  "Quantity to be packed": 16,
+  "Unit of measure": "PC",
+  "Batch": "0000000511"
+ },
+ {
+  "Handling Unit number": "304897246",
+  "Packaging materials": "CONTAINER PC",
+  "Plant": "1210",
+  "Storage location": "HUMN",
+  "Material to be packed": "SERIALTEST",
+  "Quantity to be packed": 16,
+  "Unit of measure": "PC",
+  "Batch": "0000000511"
+ },
+ {
+  "Handling Unit number": "304897248",
+  "Packaging materials": "CONTAINER PC",
+  "Plant": "1210",
+  "Storage location": "HUMN",
+  "Material to be packed": "SERIALTEST",
+  "Quantity to be packed": 1,
+  "Unit of measure": "PC",
+  "Batch": "0000000509"
+ },
+ {
+  "Handling Unit number": "304933710",
+  "Packaging materials": "CONTAINER PC",
+  "Plant": "1210",
+  "Storage location": "HUMN",
+  "Material to be packed": "SERIALTEST",
+  "Quantity to be packed": 16,
+  "Unit of measure": "PC",
+  "Batch": "0000000512"
+ },
+ {
+  "Handling Unit number": "305324024",
+  "Packaging materials": "CONTAINER PC",
+  "Plant": "1210",
+  "Storage location": "HUMN",
+  "Material to be packed": "SERIALTEST",
+  "Quantity to be packed": 16,
+  "Unit of measure": "PC",
+  "Batch": "0000000530"
+ },
+ {
+  "Handling Unit number": "305336179",
+  "Packaging materials": "PK SERIAL",
+  "Plant": "1210",
+  "Storage location": "HUMN",
+  "Material to be packed": "SERIALTEST1",
+  "Quantity to be packed": 50,
+  "Unit of measure": "PC",
+  "Batch": "0000000532"
+ },
+ {
+  "Handling Unit number": "305336180",
+  "Packaging materials": "PK SERIAL",
+  "Plant": "1210",
+  "Storage location": "HUMN",
+  "Material to be packed": "SERIALTEST1",
+  "Quantity to be packed": 14,
+  "Unit of measure": "PC",
+  "Batch": "0000000532"
+ },
+ {
+  "Handling Unit number": "305564463",
+  "Packaging materials": "CONTAINER PC",
+  "Plant": "1210",
+  "Storage location": "HUMN",
+  "Material to be packed": "SERIALTEST",
+  "Quantity to be packed": 16,
+  "Unit of measure": "PC",
+  "Batch": "0000000530"
+ },
+ {
+  "Handling Unit number": "306509723",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 2,
+  "Unit of measure": "TO",
+  "Batch": "0000000540"
+ },
+ {
+  "Handling Unit number": "306509724",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 2,
+  "Unit of measure": "TO",
+  "Batch": "0000000540"
+ },
+ {
+  "Handling Unit number": "306509725",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 2,
+  "Unit of measure": "TO",
+  "Batch": "0000000540"
+ },
+ {
+  "Handling Unit number": "306509726",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 2,
+  "Unit of measure": "TO",
+  "Batch": "0000000540"
+ },
+ {
+  "Handling Unit number": "306509727",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 2,
+  "Unit of measure": "TO",
+  "Batch": "0000000540"
+ },
+ {
+  "Handling Unit number": "306509728",
+  "Packaging materials": "BOX",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "122",
+  "Quantity to be packed": 2,
+  "Unit of measure": "TO",
+  "Batch": "0000000540"
+ },
+ {
+  "Handling Unit number": "300001801",
+  "Packaging materials": "253",
+  "Plant": "1210",
+  "Storage location": "121A",
+  "Material to be packed": "112",
+  "Quantity to be packed": 4,
+  "Unit of measure": "TO",
+  "Batch": "0000000035"
+ }
+]

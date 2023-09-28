@@ -1,0 +1,104 @@
+{
+	"_version": "1.33.0",
+	"sap.app": {
+		"id": "card.explorer.actions.chartActions",
+		"type": "card",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"tags": {
+			"keywords": [
+				"Analytical",
+				"Card",
+				"Line",
+				"Sample"
+			]
+		}
+	},
+	"sap.ui": {
+		"technology": "UI5",
+		"icons": {
+			"icon": "sap-icon://line-chart"
+		}
+	},
+	"sap.card": {
+		"type": "Analytical",
+		"header": {
+			"title": "Fleet Efficiency",
+           	"titleAlignment":"Center"
+		},
+		"content": {
+			"chartType": "Donut",
+			"chartProperties": {
+				"legendGroup": {
+					"layout": {
+						"position": "top",
+						"alignment": "center"
+					}
+				},
+				"plotArea": {
+					"dataLabel": {
+						"visible": true
+					}
+				},
+				"title": {
+					"visible": false
+				}
+			},
+			"data": {
+				"json": {
+					"status": [
+						{
+							"id": "1",
+							"storeName": "On the Move",
+							"revenue": 1005292.06
+						},
+						{
+							"id": "2",
+							"storeName": "In Maintenance",
+							"revenue": 55235.29
+						}
+					]
+				},
+				"path": "/status"
+			},
+			"dimensions": [
+				{
+					"name": "Store Name",
+					"value": "{storeName}"
+				}
+			],
+			"measures": [
+				{
+					"name": "Revenue",
+					"value": "{revenue}"
+				}
+			],
+			"feeds": [
+				{
+					"type": "Dimension",
+					"uid": "color",
+					"values": [
+						"Store Name"
+					]
+				},
+				{
+					"type": "Measure",
+					"uid": "size",
+					"values": [
+						"Revenue"
+					]
+				}
+			],
+			"actionableArea": "Chart",
+			"actions": [
+				{
+					"type": "Navigation",
+					"parameters": {
+						"url": "https://sap.com?id={id}&revenue={revenue}&storeName={storeName}"
+					}
+				}
+			]
+		}
+	}
+}

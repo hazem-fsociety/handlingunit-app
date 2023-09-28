@@ -1,0 +1,25 @@
+{
+	"milk": [
+	{
+	  "Stoppage Type": "Corr.Maintenance",
+	  "Duaration (min)": 70
+	},
+	{
+        "Stoppage Type": "Prev.Maintenance",
+        "Duaration (min)": 60
+	},
+	{
+        "Stoppage Type": "Breakdown",
+        "Duaration (min)": 54
+	},
+	{
+        "Stoppage Type": "Sched.Downtime",
+        "Duaration (min)": 41
+	},
+	{
+        "Stoppage Type": "Changeover",
+        "Duaration (min)": 30
+	}
+	
+  ]
+}

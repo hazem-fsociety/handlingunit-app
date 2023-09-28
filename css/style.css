@@ -1,0 +1,103 @@
+/* Login view */
+.image1 {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.image2 {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.login-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.welcome {
+    border-left: 1px solid #6e6d6d;
+    padding-left: 20px;
+}
+
+.logButton {
+    left: 1rem;
+}
+
+.footer {
+    position: absolute;
+    bottom: 1.75rem;
+    left: 1.25rem;
+}
+
+/* Menu view */
+.date {
+    color: rgb(143, 26, 61);
+    position: absolute;
+    bottom: 1.75rem;
+    left: 1.25rem;
+}
+
+.changeTheme {
+    position: absolute;
+    bottom: 0.75rem;
+    right: 1rem;
+}
+
+/* Create view */
+.customPaddingCreate {
+    padding-left: 20px;
+}
+
+/* Change view */
+.customPaddingChange {
+    padding-left: 20px;
+}
+
+/* Print view */
+.customPadding {
+	padding: 20px; 
+}
+
+.customPadding2 {
+    border-left: 1px solid #6e6d6d;
+	padding: 20px; 
+    padding-bottom: 250px;
+}
+
+/* Dashboard */
+.Txt1 {
+    color: rgb(43, 125, 43);
+
+}
+
+.Txt2 {
+    color: rgb(231, 140, 7);
+
+}
+
+.Txt3 {
+    color: rgb(66, 124, 172);
+
+}
+
+.Txt4 {
+    color: rgb(187, 0, 0);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

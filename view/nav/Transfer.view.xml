@@ -1,0 +1,47 @@
+<mvc:View
+	controllerName="sap.hum.pfe.controller.nav.Transfer"
+	xmlns:layout="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc"
+	busyIndicatorDelay="0"
+	displayBlock="true"
+	xmlns="sap.m">
+
+	<Page title="Handling units transfer" titleAlignment="Center" showNavButton="true" navButtonPress="navBack">
+
+		<headerContent>
+			<Button icon="sap-icon://log" press="logout" design="Transparent" />
+		</headerContent>
+		
+		<content>
+			<layout:VerticalLayout class="sapUiContentPadding">
+				<Label required="true" text="Handling units number" labelFor="huInput" />
+				<Input
+					id="huInput"
+					placeholder="Enter handling units number"
+					width="400px"
+					tooltip="Please enter the handling unit number">
+				</Input>
+				<Label required="true" text="Target storage location" labelFor="slInput" />
+				<Input
+					id="slInput"
+					placeholder="Enter target storage location"
+					width="400px"
+					showValueHelp="true"
+					valueHelpRequest="onShowSloc"
+					tooltip="Please enter the target storage location">
+				</Input>
+			</layout:VerticalLayout>
+		</content>
+
+		<footer>
+			<Bar>
+				<contentRight>
+					<Button text="Transfer handling units" type="Emphasized" press="saveAction" tooltip="Transfer handling units to the target location" />
+					<Button text="Cancel" type="Transparent" press="cancelAction" tooltip="Cancel the action" />
+				</contentRight>
+			</Bar>
+		</footer>
+		
+	</Page>
+	
+</mvc:View>

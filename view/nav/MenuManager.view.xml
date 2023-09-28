@@ -1,0 +1,175 @@
+<mvc:View
+	controllerName="sap.hum.pfe.controller.nav.MenuManager"
+	xmlns:layout="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc"
+	busyIndicatorDelay="0"
+	displayBlock="true"
+	height="100%"
+	xmlns="sap.m">
+
+	<Page title="Main menu" titleAlignment="Center">
+
+		<headerContent>
+			<Button icon="sap-icon://log" press="logout" design="Transparent" />
+		</headerContent>
+        
+        <content>
+			<layout:VerticalLayout class="sapUiResponsiveMargin">
+                <Title text="Welcome to our Handling Unit Management Application !" titleStyle="H2" class="sapUiTinyMarginBegin" />
+
+                <layout:HorizontalLayout allowWrapping="true">
+
+                    <GenericTile
+                        class="sapUiTinyMarginBegin sapUiTinyMarginTop"
+                        backgroundImage="images\AQS Logo.png"
+                        frameType="TwoByOne">
+                    </GenericTile>
+
+                    <SlideTile class="sapUiTinyMarginBegin sapUiTinyMarginTop">
+					    <GenericTile
+                            backgroundImage="images\Wire Rod.jpg"
+                            frameType="TwoByOne">
+                            <TileContent footer="500,000 tons/year">
+                                <NewsContent
+                                    contentText="Wire Rod"
+                                    subheader="AQS Product"/>
+                            </TileContent>
+                        </GenericTile>
+                        <GenericTile
+                            backgroundImage="images\Rebar.jpg"
+                            frameType="TwoByOne">
+                            <TileContent footer="1,500,000 tons / year">
+                                <NewsContent
+                                    contentText="Rebar"
+                                    subheader="AQS Product"/>
+                            </TileContent>
+                        </GenericTile>
+						<GenericTile
+                            backgroundImage="images\Billet.jpg"
+                            frameType="TwoByOne">
+                            <TileContent footer="2.2 million tons / year">
+                                <NewsContent
+                                    contentText="Billet"
+                                    subheader="AQS Product"/>
+                            </TileContent>
+                        </GenericTile>
+                        <GenericTile
+                            backgroundImage="images\CDRI.jpg"
+                            frameType="TwoByOne">
+                            <TileContent footer="2.5 million ton / year">
+                                <NewsContent
+                                    contentText="CDRI"
+                                    subheader="AQS Product"/>
+                            </TileContent>
+                        </GenericTile>
+						<GenericTile
+                            backgroundImage="images\Lime.jpg"
+                            frameType="TwoByOne">
+                            <TileContent footer="280 000 tons/year">
+                                <NewsContent
+                                    contentText="Lime"
+                                    subheader="AQS Product"/>
+                            </TileContent>
+                        </GenericTile>
+					</SlideTile>
+                    
+                    <GenericTile
+                        class="sapUiTinyMarginBegin sapUiTinyMarginTop"
+                        frameType="TwoByOne"
+                        header="Visualize warehouse Key Performance Indicators"
+                        subheader="Real-time KPIs for the shipping process"
+                        appShortcut="Sensitive Data"
+                        press="navToDashboard">
+                        <TileContent>
+    				        <ImageContent src="sap-icon://bbyd-dashboard"/>
+            			</TileContent>
+                    </GenericTile>
+
+                </layout:HorizontalLayout>
+
+                <Title text="Operating features" titleStyle="H2" class="sapUiTinyMarginBegin sapUiMediumMarginTop" />
+
+                <layout:HorizontalLayout allowWrapping="true">
+                    <GenericTile
+						class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout"
+                    	header="Create"
+                        subheader="Handling Units"
+                        press="navToCreate">
+                        <TileContent>
+    				        <ImageContent src="sap-icon://create"/>
+            			</TileContent>
+                    </GenericTile>
+
+                    <GenericTile
+						class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout"
+                        header="Change"
+                        subheader="Handling Units"
+                        press="navToChange">
+                        <TileContent>
+    				        <ImageContent src="sap-icon://edit"/>
+            			</TileContent>
+                    </GenericTile>
+
+                    <GenericTile
+						class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout"
+                        header="Display"
+                        subheader="Handling Units"
+                        press="navToDisplay">
+                        <TileContent>
+    				        <ImageContent src="sap-icon://show"/>
+            			</TileContent>
+                    </GenericTile>
+
+                    <GenericTile 
+						class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout"
+                        header="Pack"
+                        subheader="Handling Units"
+                        press="navToPack">
+                        <TileContent>
+    				        <ImageContent src="sap-icon://product"/>
+            			</TileContent>
+                    </GenericTile>
+                    
+                    <GenericTile
+						class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout"
+                        header="Transfer"
+                        subheader="Handling Units"
+                        press="navToTransfer">
+                        <TileContent>
+    				        <ImageContent src="sap-icon://move"/>
+            			</TileContent>
+                    </GenericTile>
+
+                    <GenericTile
+						class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout"
+                        header="Print"
+                        subheader="Handling Units Label"
+                        press="navToPrint">
+                        <TileContent>
+    				        <ImageContent src="sap-icon://print"/>
+            			</TileContent>
+                    </GenericTile>
+                </layout:HorizontalLayout>
+
+                <layout:HorizontalLayout allowWrapping="true">
+                    <Text
+                        class="date"
+                        id="shortText"
+                        text="{
+                            path: '/dtValue',
+                            type: 'sap.ui.model.type.DateTime',
+                            formatOptions: {style: 'short'}
+                            }"/>
+                    <ToggleButton
+                        text="Change theme"					
+                        press="changeTheme"
+                        type="Transparent" 
+                        class="changeTheme"
+                    />
+                </layout:HorizontalLayout>
+			</layout:VerticalLayout>
+
+		</content>
+	</Page>
+	
+</mvc:View>

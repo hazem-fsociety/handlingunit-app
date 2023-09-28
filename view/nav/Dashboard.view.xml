@@ -1,0 +1,68 @@
+<mvc:View
+controllerName="sap.hum.pfe.controller.nav.Dashboard"
+  xmlns:ui-integration="sap.ui.integration.widgets"
+  xmlns:microchart="sap.suite.ui.microchart"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns:l="sap.ui.layout"
+  busyIndicatorDelay="0"
+  displayBlock="true"
+  xmlns="sap.m">
+
+	<Page title="Handling units dashboard" titleAlignment="Center" showNavButton="true" navButtonPress="navBack">
+		<headerContent>
+			<Button icon="sap-icon://log" press="logout" design="Transparent" />
+		</headerContent>
+
+		<l:VerticalLayout width="100%">
+      		<l:BlockLayout background="Dashboard">
+				<l:BlockLayoutRow>
+					<l:BlockLayoutCell title="Orders to Ship Today" width="18%" titleAlignment="Center">
+                		<Title text="106" width="215px" textAlign="Center" titleStyle="H1" class="Txt1"/>
+					</l:BlockLayoutCell>
+					<l:BlockLayoutCell title="Overdue Shipments for Today" width="18%" titleAlignment="Center">
+					    <Title text="20" width="215px" textAlign="Center" titleStyle="H1" class="Txt2"/>
+          			</l:BlockLayoutCell>
+					<l:BlockLayoutCell title="Open Production Orders" width="18%" titleAlignment="Center">
+					    <Title text="198" width="215px" textAlign="Center" titleStyle="H1" class="Txt3"/>
+          			</l:BlockLayoutCell>
+					<l:BlockLayoutCell title="Late vendor Shpiments" width="18%" titleAlignment="Center">
+					    <Title text="12" width="215px" textAlign="Center" titleStyle="H1" class="Txt4"/>
+          			</l:BlockLayoutCell>
+				</l:BlockLayoutRow>
+			</l:BlockLayout>
+		</l:VerticalLayout>
+
+		<l:VerticalLayout width="100%">
+            <l:BlockLayout background="Dashboard">
+   				<l:BlockLayoutRow>
+					<l:BlockLayoutCell>
+							<ui-integration:Card manifest="./Line.json" height="300px" />
+					</l:BlockLayoutCell>
+				</l:BlockLayoutRow>
+			</l:BlockLayout>
+		</l:VerticalLayout>
+
+    	<l:VerticalLayout width="100%">
+			<l:BlockLayout background="Dashboard">
+				<l:BlockLayoutRow>
+					<l:BlockLayoutCell>
+						<ui-integration:Card manifest="./Status.json" width="405px" height="250px" />
+						<ui-integration:Card manifest="./Destination.json" width="405px" height="250px" />
+						<ui-integration:Card manifest="./Fleet.json" width="405px" height="250px" />
+          			</l:BlockLayoutCell>
+				</l:BlockLayoutRow>
+			</l:BlockLayout>
+		</l:VerticalLayout>
+
+		<l:VerticalLayout width="100%">
+			<l:BlockLayout background="Dashboard">
+				<l:BlockLayoutRow>
+					<l:BlockLayoutCell title="Stoppages Duration">
+						<ui-integration:Card manifest="./Stop.json" height="250px" />
+          			</l:BlockLayoutCell>
+				</l:BlockLayoutRow>
+			</l:BlockLayout>
+		</l:VerticalLayout>
+		
+	</Page>
+</mvc:View>

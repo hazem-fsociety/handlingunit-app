@@ -1,0 +1,131 @@
+{
+	"_version": "1.14.0",
+	"sap.app": {
+		"id": "card.explorer.line.card",
+		"type": "card",
+		"applicationVersion": {
+			"version": "1.0.0"
+		}
+	
+	},
+	"sap.ui": {
+		"technology": "UI5",
+		"icons": {
+			"icon": "sap-icon://line-chart"
+		}
+	},
+"sap.card": {
+    "type": "Analytical",
+    "header": {
+        "title": "Average Loading Time & Weight"
+    },
+    "content": {
+        "chartType": "Line",
+        "chartProperties": {
+            "legend": {
+                "visible": true,
+                "position": "bottom"
+            },
+            "legendGroup": {
+                "layout": {
+                    "position": "{legend/position}",
+                    "alignment": "{legend/alignment}"
+                }
+            },
+            "plotArea": {
+                "dataLabel": {
+                    "visible": true
+                }
+            },
+            "title": {
+                "visible": false
+            },
+            "categoryAxis": {
+                "title": {
+                    "visible": true,
+                    "text" : "Weeks"
+                }
+            },
+            "valueAxis": {
+                "title": {
+                    "visible": false
+                }
+            }
+        },
+        "data": {
+            "json": {
+                "dimensions": {
+                    "weekLabel": "Weeks"
+                },
+                "measures": {
+                    "revenueLabel": "Average Loading Time (min)",
+                    "costLabel": "Average Weight (tons)"
+                },
+                "legend": {
+                    "visible": false,
+                    "position": "bottom",
+                    "alignment": "topLeft"
+                },
+                "list": [
+                    {
+                        "Week": "Week 1 - 4",
+                        "Average Loading Time": 49.45,
+                        "Average Weight": 58.56
+                    },
+                    {
+                        "Week": "Week 5 - 8",
+                        "Average Loading Time": 51.30,
+                        "Average Weight": 60.22
+                    },
+                    {
+                        "Week": "Week 9 - 12",
+                        "Average Loading Time": 50.53,
+                        "Average Weight": 71.91
+                    },
+                    {
+                        "Week": "Week 13 - 16",
+                        "Average Loading Time": 53.37,
+                        "Average Weight": 69.45
+                    }
+                ]
+            },
+            "path": "/list"
+        },
+        "dimensions": [
+            {
+                "name": "{dimensions/weekLabel}",
+                "value": "{Week}"
+            }
+        ],
+        "measures": [
+            {
+                "name": "{measures/revenueLabel}",
+                "value": "{Average Loading Time}"
+            },
+            {
+                "name": "{measures/costLabel}",
+                "value": "{Average Weight}"
+            }
+        ],
+        "feeds": [
+            {
+                "uid": "valueAxis",
+                "type": "Measure",
+                "values": [
+                    "{measures/revenueLabel}",
+                    "{measures/costLabel}",
+                    "{measures/kpiLabel}",
+                    "{measures/kkLabel}"
+                ]
+            },
+            {
+                "uid": "categoryAxis",
+                "type": "Dimension",
+                "values": [
+                    "{dimensions/weekLabel}"
+                ]
+            }
+        ]
+    }
+}
+}

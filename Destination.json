@@ -1,0 +1,113 @@
+{
+	"_version": "1.33.0",
+	"sap.app": {
+		"id": "card.explorer.actions.chartActions",
+		"type": "card",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"tags": {
+			"keywords": [
+				"Analytical",
+				"Card",
+				"Line",
+				"Sample"
+			]
+		}
+	},
+	"sap.ui": {
+		"technology": "UI5",
+		"icons": {
+			"icon": "sap-icon://line-chart"
+		}
+	},
+	"sap.card": {
+		"type": "Analytical",
+		"header": {
+			"title": "Deliveries by Destination"
+		},
+		"content": {
+			"chartType": "Donut",
+			"chartProperties": {
+				"legendGroup": {
+					"layout": {
+						"position": "top",
+						"alignment": "center"
+					}
+				},
+				"plotArea": {
+					"dataLabel": {
+						"visible": true
+					}
+				},
+				"title": {
+					"visible": false
+				}
+			},
+			"data": {
+				"json": {
+					"cities": [
+						{
+							"id": "1",
+							"destination": "Alger",
+							"deliveries": 345292.06
+						},
+						{
+							"id": "2",
+							"destination": "Blida",
+							"deliveries": 1564235.29
+						},
+						{
+							"id": "3",
+							"destination": "Oran",
+							"deliveries": 1085567.22
+						},
+                        {
+							"id": "4",
+							"destination": "Others",
+							"deliveries": 1085567.22
+						}
+					]
+				},
+				"path": "/cities"
+			},
+			"dimensions": [
+				{
+					"name": "destination",
+					"value": "{destination}"
+				}
+			],
+			"measures": [
+				{
+					"name": "deliveries",
+					"value": "{deliveries}"
+				}
+			],
+			"feeds": [
+				{
+					"type": "Dimension",
+					"uid": "color",
+					"values": [
+						"destination"
+					]
+				},
+				{
+					"type": "Measure",
+					"uid": "size",
+					"values": [
+						"deliveries"
+					]
+				}
+			],
+			"actionableArea": "Chart",
+			"actions": [
+				{
+					"type": "Navigation",
+					"parameters": {
+						"url": "https://sap.com?id={id}&deliveries={deliveries}&destination={destination}"
+					}
+				}
+			]
+		}
+	}
+}

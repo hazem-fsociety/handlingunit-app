@@ -1,0 +1,42 @@
+<core:FragmentDefinition
+	xmlns:core="sap.ui.core"
+	xmlns="sap.m">
+
+   <SelectDialog 
+		draggable="true"
+		id="selectDialog"
+		confirm="onChoose"
+		contentWidth="500px"
+		titleAlignment="Center"
+		title="HU Identfier Types">
+
+		<StandardListItem
+			title=" "
+			description="Old shipping unit (before HUs)" />
+		<StandardListItem
+			title="A"
+			description="External HU identification = VEKP-VENUM (no HU management)"/>
+		<StandardListItem
+			title="B"
+			description="Number assigned by customer (no HU management)" />
+		<StandardListItem
+			title="C"
+			description="SSCC18 or GTL internal" />
+		<StandardListItem
+			title="D"
+			description="SSCC18 or GTL external" />
+		<StandardListItem
+			title="E"
+			description="No. rnge obj. HU_VEKP internal interval - SSCC18 before GI" />
+		<StandardListItem
+			title="F"
+			description="No. rnge obj. HU_VEKP external interval - SSCC18 before GI" />
+		<StandardListItem
+			title="G"
+			description="$ number for packing proposal - only for object '02'" />
+		<StandardListItem
+			title="H"
+			description="SSCC18 or GTL from vendor" />
+	</SelectDialog>
+</core:FragmentDefinition>
+

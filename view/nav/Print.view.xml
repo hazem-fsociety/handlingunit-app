@@ -1,0 +1,65 @@
+<mvc:View
+	controllerName="sap.hum.pfe.controller.nav.Print"
+	xmlns:layout="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc"
+	busyIndicatorDelay="0"
+	displayBlock="true"
+	xmlns="sap.m">
+
+	<Page title="Handling units label print" titleAlignment="Center" showNavButton="true" navButtonPress="navBack" enableScrolling="">
+
+		<headerContent>
+			<Button icon="sap-icon://log" press="logout" design="Transparent" />
+		</headerContent>
+
+		<content>
+			<layout:HorizontalLayout>
+
+				<layout:VerticalLayout width="500px" class="customPadding">
+
+					<Label required="true" text="Specify the handling units label to print" labelFor="humInput" />
+					<Input
+						id="humInput"
+						placeholder="Enter handling units number"
+						width="300px"
+					/>
+					
+					<Button text="Display HU label details" icon="sap-icon://show-edit" width="190px" press="showHuData" />
+					<Button text="Print HU label" icon="sap-icon://pdf-attachment" press="onPrintHuLabel" />
+
+				</layout:VerticalLayout>
+				<layout:VerticalLayout width="300px" class="customPadding2">
+
+					<Label text="Handling units number" />
+					<Input id="huId" />
+
+					<Label text="Packaging material" />
+					<Input id="materialId" />
+
+					<Label text="Product" />
+					<Input id="productId" />
+
+					<Label text="Description" />
+					<Input id="Desc" />
+
+					<Label text="Batch" />
+					<Input id="batchId" />
+
+					<Label text="SLED" />
+					<Input id="sledId" />
+
+				</layout:VerticalLayout>
+
+			</layout:HorizontalLayout>
+
+
+		</content>
+				<footer>
+			<Bar>
+				<contentRight>
+					<Button text="Cancel" type="Transparent" press="cancelAction" tooltip="Cancel the action" />
+				</contentRight>
+			</Bar>
+		</footer>
+	</Page>
+</mvc:View>

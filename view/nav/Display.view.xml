@@ -1,0 +1,96 @@
+<mvc:View
+	controllerName="sap.hum.pfe.controller.nav.Display"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:w="sap.ui.webc.main"
+	busyIndicatorDelay="0"
+	displayBlock="true"
+	xmlns="sap.m">
+
+	<Page title="Handling units display" titleAlignment="Center" showNavButton="true" navButtonPress="navBack">
+		<headerContent>
+			<Button icon="sap-icon://log" press="logout" design="Transparent" />
+		</headerContent>
+		
+		<content>
+			<Toolbar height="60px">
+				<Label text="Find specific handling units:" design="Bold"/>
+				<SearchField
+					width="270px"
+					id="searchField1"
+					showClearButton="true"
+					liveChange="onLiveChange"
+					placeholder="Enter handling unit number..."
+					tooltip="Enter handling unit number to search"
+				/>
+				<SearchField
+					width="240px"
+					id="searchField2"
+					showClearButton="true"
+					liveChange="onLiveChange"
+					placeholder="Enter storage location..."
+					tooltip="Enter storage location to search"
+				/>
+				<SearchField
+					width="180px"
+					id="searchField3"
+					showClearButton="true"
+					liveChange="onLiveChange"
+					placeholder="Enter Batch..."
+					tooltip="Enter batch to search"
+				/>
+			</Toolbar>
+
+			<Table
+				id="idHuTable"
+				stickyColumnHeader="true"
+				mode="None"
+				items="{
+					path: '/',
+					sorter: {
+						path: 'Name'
+					}
+				}">
+				<columns>
+					<Column hAlign="Center">
+						<Label text="Handling unit number" />
+					</Column>
+					<Column hAlign="Center">
+						<Label text="Packaging material" />
+					</Column>
+					<Column hAlign="Center">
+						<Label text="Plant" />
+					</Column>
+					<Column hAlign="Center">
+						<Label text="Storage location" />
+					</Column>
+					<Column hAlign="Center">
+						<Label text="Material to be packed" />
+					</Column>
+					<Column hAlign="Center">
+						<Label text="Quantity to be packed" />
+					</Column>
+					<Column hAlign="Center">
+						<Label text="Unit of measure" />
+					</Column>
+					<Column hAlign="Center">
+						<Label text="Batch" />
+					</Column>
+				</columns>
+				<items>
+					<ColumnListItem>
+						<cells>
+							<Text text="{Handling Unit number}"/>
+							<Text text="{Packaging materials}" />
+							<Text text="{Plant}" />
+							<Text text="{Storage location}" />
+							<Text text="{Material to be packed}" />
+							<Text text="{Quantity to be packed}" />
+							<Text text="{Unit of measure}" />
+							<Text text="{Batch}" />
+						</cells>
+					</ColumnListItem>
+				</items>
+			</Table>
+		</content>
+	</Page>
+</mvc:View>

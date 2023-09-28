@@ -1,0 +1,48 @@
+<mvc:View
+	controllerName="sap.hum.pfe.controller.Login"
+	xmlns:form="sap.ui.layout.form"
+	xmlns:layout="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true"
+	xmlns="sap.m">
+    
+    <App id="idAppControl">
+        <Page showHeader="None" enableScrolling="None">
+            <content>
+
+				<Image src="images\SAP Logo.png" width="80px" class="image1"/>
+				<Image src="images\Seidor Logo.png" width="80px" class="image2"/>
+
+                <FlexBox justifyContent="Center" alignItems="Center" height="100%">
+                    <HBox justifyContent="Center" class="login-box">
+                        <VBox class="welcome">
+                            <Title text="Welcome Back!" width="300px"/>
+							<Label text="Log into your account"/>
+                        </VBox>
+                        <VBox>
+                            <form:SimpleForm>
+                                <form:content>
+                                    <Label text="Username" width="200px"/>
+                                    <Input id="user" placeholder="Enter your Username" width="200px"/>
+                                    <Label text="Password" width="200px"/>
+									<Input id="pwd" type="Password" placeholder="Enter your Password" width="200px"/>
+                                </form:content>
+                            </form:SimpleForm>
+                            <Button text="Log In" icon="sap-icon://visits" type="Emphasized" press="onBtnClick" class="logButton" width="200px"/>
+                        </VBox>
+
+                    </HBox>
+                </FlexBox>
+
+                <ToggleButton
+                    text="Change theme"					
+                    press="changeTheme"
+                    type="Transparent" 
+                    class="changeTheme"
+                />
+			    <Label text="© 2023 Seidor Tun. All rights reserved" class="footer"/>
+
+            </content>
+        </Page>
+    </App>
+</mvc:View>

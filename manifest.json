@@ -1,0 +1,199 @@
+{
+    "_version": "1.21.0",
+    "sap.app": {
+        "id": "sap.hum.pfe",
+        "type": "application",
+        "i18n": "i18n/i18n.properties",
+        "applicationVersion": {
+            "version": "1.0.0"
+        },
+        "title": "{{appTitle}}",
+        "description": "{{appDescription}}"
+    },
+    "sap.ui": {
+        "technology": "UI5",
+        "icons": {
+            "icon": "",
+            "favIcon": "",
+            "phone": "",
+            "phone@2": "",
+            "tablet": "",
+            "tablet@2": ""
+        },
+        "deviceTypes": {
+            "desktop": true,
+            "tablet": true,
+            "phone": true
+        }
+    },
+    "sap.ui5": {
+        "flexEnabled": false,
+        "rootView": {
+            "viewName": "sap.hum.pfe.view.Login",
+            "type": "XML",
+            "async": true,
+            "id": "idAppControl"
+        },
+        "dependencies": {
+            "minUI5Version": "1.93",
+            "libs": {
+                "sap.ui.core": {},
+                "sap.m": {},
+                "sap.ui.layout": {}
+            }
+        },
+        "contentDensities": {
+            "compact": true,
+            "cozy": true
+        },
+        "models": {
+            "i18n": {
+                "type": "sap.ui.model.resource.ResourceModel",
+                "settings": {
+                  "bundleName": "sap.hum.pfe.i18n.i18n",
+                  "supportedLocales": [""],
+                  "fallbackLocale": ""
+                }	  
+            },
+            "PDFModel": {
+                "type": "sap.ui.model.json.JSONModel",
+                "uri": "PDFTemplate.json"
+            }
+        },
+        "resources": {
+            "css": [{
+                "uri": "css/style.css"
+            }]
+        },
+        "routing": {
+            "config": {
+                "routerClass": "sap.m.routing.Router",
+                "viewType": "XML",
+                "viewPath": "sap.hum.pfe.view",
+                "controlId": "idAppControl",
+                "controlAggregation": "pages",
+                "bypassed": {
+                    "target": "notFound"
+                },
+                "async": true
+            },
+            "routes": [{
+                "name": "Login",
+                "pattern": "",
+                "target": ["loginView"]
+            },
+            {
+                "name": "menu",
+                "pattern": "menu",
+                "target": ["MenuView"]
+            },
+            {
+                "name": "menu2",
+                "pattern": "menu2",
+                "target": ["MenuView2"]
+            },
+            {
+                "name": "dashboard",
+                "pattern": "dashboard",
+                "target": ["DashboardView"]
+            },
+            {
+                "name": "print",
+                "pattern": "print",
+                "target": ["PrintView"]
+            },
+            {
+                "name": "display",
+                "pattern": "display",
+                "target": ["DisplayView"]
+            },
+            {
+                "name": "transfer",
+                "pattern": "transfer",
+                "target": ["TransferView"]
+            },
+            {
+                "name": "change",
+                "pattern": "change",
+                "target": ["ChangeView"]
+            },
+            {
+                "name": "create",
+                "pattern": "create",
+                "target": ["CreateView"]
+            },
+            {
+                "name": "pack",
+                "pattern": "pack",
+                "target": ["PackView"]
+            }],
+            "targets": {
+                "loginView": {
+                    "viewType": "XML",
+                    "viewLevel": 1,
+                    "viewName": "Login"
+                },
+                "notFound": {
+                    "viewType": "XML",
+                    "viewLevel": 2,
+                    "transition": "show",
+                    "viewName": "NotFound"
+                },
+                "MenuView": {
+                    "viewType": "XML",
+                    "viewLevel": 2,
+                    "transition": "fade",
+                    "viewName": "nav/Menu"
+                },
+                "MenuView2": {
+                    "viewType": "XML",
+                    "viewLevel": 2,
+                    "transition": "fade",
+                    "viewName": "nav/MenuManager"
+                },
+                "DashboardView": {
+                    "viewType": "XML",
+                    "viewLevel": 2,
+                    "transition": "fade",
+                    "viewName": "nav/Dashboard"
+                },
+                "PrintView": {
+                    "viewType": "XML",
+                    "viewLevel": 2,
+                    "transition": "fade",
+                    "viewName": "nav/Print"
+                },
+                "DisplayView": {
+                    "viewType": "XML",
+                    "viewLevel": 2,
+                    "transition": "fade",
+                    "viewName": "nav/Display"
+                },
+                "TransferView": {
+                    "viewType": "XML",
+                    "viewLevel": 2,
+                    "transition": "fade",
+                    "viewName": "nav/Transfer"
+                },
+                "ChangeView": {
+                    "viewType": "XML",
+                    "viewLevel": 2,
+                    "transition": "fade",
+                    "viewName": "nav/Change"
+                },
+                "CreateView": {
+                    "viewType": "XML",
+                    "viewLevel": 2,
+                    "transition": "fade",
+                    "viewName": "nav/Create"
+                },
+                "PackView": {
+                    "viewType": "XML",
+                    "viewLevel": 2,
+                    "transition": "fade",
+                    "viewName": "nav/Pack"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+<core:FragmentDefinition
+	xmlns:core="sap.ui.core"
+	xmlns="sap.m">
+
+   <SelectDialog 
+		draggable="true"
+		id="selectDialog"
+		confirm="onChooseSloc"
+		contentWidth="500px"
+		titleAlignment="Center"
+		title="Storage Locations">
+
+		<StandardListItem
+			title="0001"/>
+		<StandardListItem
+			title="121A"/>
+		<StandardListItem
+			title="121C"/>
+		<StandardListItem
+			title="121S"/>
+		<StandardListItem
+			title="MXYZ"/>
+		<StandardListItem
+			title="HUMN"/>
+		<StandardListItem
+			title="HUMS"/>	
+	</SelectDialog>
+</core:FragmentDefinition>
+

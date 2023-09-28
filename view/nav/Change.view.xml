@@ -1,0 +1,146 @@
+<mvc:View
+	controllerName="sap.hum.pfe.controller.nav.Change"
+	xmlns:form="sap.ui.layout.form"
+	xmlns:layout="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:core="sap.ui.core"
+	busyIndicatorDelay="0" 
+	displayBlock="true"
+	xmlns="sap.m">
+
+	<Page title="Handling units change" titleAlignment="Center" showNavButton="true" navButtonPress="navBack">
+
+		<headerContent>
+			<Button icon="sap-icon://log" press="logout" design="Transparent" tooltip="Logout" />
+		</headerContent>
+
+		<content>
+			<layout:VerticalLayout class="sapUiContentPadding">
+
+				<layout:VerticalLayout class="customPaddingChange">
+					<Label required="true" text="Handling units identification" labelFor="huInput" />
+					<Input
+						id="huInput"
+						placeholder="Enter the handling units number"
+						width="300px"
+						tooltip="Please enter the handling units number">
+					</Input>
+					<Button
+						text="Change handling units"
+						type="Emphasized"
+						press="ChangeHU"
+						tooltip="Change handling units"
+					/>
+				</layout:VerticalLayout>
+
+				<IconTabBar
+				id="idIconTabBar"
+				class="sapUiResponsiveContentPadding"
+				headerBackgroundDesign="Transparent">
+				<items>
+					<IconTabFilter   
+						design="Horizontal"
+						icon="sap-icon://product"
+						text="Packaging Data" 
+						key="PackData">
+
+						<Label required="true" text="Handling units number" />
+						<Input id="hucInput" editable="None" />
+
+						<Label text="Handling units identfier type" />
+						<Input id="HuIden" showValueHelp="true" valueHelpRequest="onShowHuIden" />
+
+						<Label text="Batch" />
+						<Input/>
+
+						<Label required="true" text="Packaging material" />
+						<Input id="packMatInput" editable="None" />
+
+						<Label text="Packaging material type" />
+						<Input/>
+
+						<Label text="Packaging material category" />
+						<Input/>
+
+						<Label text="Created by" />
+						<Input enabled="None" />
+
+						<Label text="Created on" />
+						<Input type="Date" enabled="None" />
+
+						<Label text="Description" />
+						<Input/>
+					</IconTabFilter>
+					<IconTabSeparator />
+					<IconTabFilter   
+						design="Horizontal"
+						icon="sap-icon://form"
+						text="General Data" 
+						key="GeneralData">
+
+						<Label text="Physical status" />
+						<Select width="100%">
+							<items>
+								<core:Item text="" key=""/>
+								<core:Item text="Planned HU" key="A"/>
+								<core:Item text="Not in the warehouse" key="B"/>
+								<core:Item text="In the warehouse" key="C"/>
+							</items>
+						</Select>
+
+						<Label text="Packed quantity" />
+						<Input/>
+
+						<Label text="Plant" />
+						<Input/>
+
+						<Label text="Storage location" />
+						<Input />
+
+						<Label text="Warehouse number" />
+						<Input/>
+
+						<Label text="Storage type" />
+						<Input/>
+
+						<Label text="Storage bin" />
+						<Input/>
+					</IconTabFilter>
+					<IconTabSeparator />
+					<IconTabFilter   
+						design="Horizontal"
+						icon="sap-icon://measure"
+						text="Measurement Data" 
+						key="MeasurementData">
+
+						<Label text="Total weight" />
+						<Input/>
+
+						<Label text="Loading weight" />
+						<Input/>
+
+						<Label text="Allowed loading weight" />
+						<Input/>
+
+						<Label required="true" text="Weight unit" />
+						<Input/>
+
+						<Label text="Tare weight" />
+						<Input/>
+					</IconTabFilter>
+				</items>
+				</IconTabBar>
+			</layout:VerticalLayout>
+		</content>
+
+		<footer>
+			<Bar>
+				<contentRight>
+					<Button text="Change" type="Emphasized" press="saveAction" tooltip="Change and save handling units" />
+					<Button text="Cancel" type="Transparent" press="cancelAction" tooltip="Cancel the action" />
+				</contentRight>
+			</Bar>
+		</footer>
+
+    </Page>
+</mvc:View>

@@ -1,0 +1,78 @@
+{
+	"_version": "1.14.0",
+	"sap.app": {
+		"id": "card.explorer.analytical.barWithReferenceLines.card",
+		"type": "card",
+		
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"tags": {
+			"keywords": [
+				"Analytical",
+				"Card",
+				"Bar",
+				"Sample"
+			]
+		}
+	},
+	"sap.ui": {
+		"technology": "UI5"
+	},
+	"sap.card": {
+		"type": "Analytical",
+		
+		"content": {
+			"data": {
+				"request": {
+					"url": "./dataa.json"
+				},
+				"path": "/milk"
+			},
+			"chartType": "bar",
+			"chartProperties": {
+				"title": {
+					"visible": false
+				},
+				"legend": {
+					"visible": false
+				}
+			},
+			"minHeight": "20rem",
+			"dimensions": [
+				{
+					"name": "Stoppage Type",
+					"value": "{Stoppage Type}"
+				}
+			],
+			"measures": [
+				{
+					"name": "Duaration (min)",
+					"value": "{Duaration (min)}"
+				},
+				{
+					"name": "Duration",
+					"value": "{Duration}"
+				}
+               
+			],
+			"feeds": [
+				{
+					"uid": "valueAxis",
+					"type": "Measure",
+					"values": [
+						"Duaration (min)"
+                        
+					]
+				},
+				{
+					"uid": "categoryAxis",
+					"type": "Dimension",
+					"values": [
+						"Stoppage Type"
+					]
+				}
+			]
+		}
+	}
+}
